@@ -1,12 +1,47 @@
-# React + Vite
+# 🧠 AI Image Enhancer 📷
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an AI-powered image enhancement web application built with **React + Vite**. It allows users to upload images and enhances them automatically using artificial intelligence — improving quality, upscaling resolution, and bringing out hidden details with minimal effort.
 
-Currently, two official plugins are available:
+> 🎥 Check out the video where I walk through the project and showcase before-and-after results of AI image enhancement!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌟 Enhance image resolution and quality instantly
+- 📤 Upload image directly from your device
+- 🧠 Powered by AI for stunning visual results
+- 🔁 Real-time UI updates with HMR (Hot Module Replacement)
+- 💡 Built with modern React and Vite setup
+
+---
+
+## 📸 Demo
+
+![Demo Preview](demo-screenshot.png)
+
+---
+
+## 🧰 Tech Stack
+
+- **React** (Frontend framework)
+- **Vite** (Fast build tool with HMR)
+- **Tailwind CSS** (Styling)
+- **Axios** (HTTP requests)
+- **External AI API** (for image enhancement)
+- **ESLint** (Linting rules)
+
+---
+
+## 🧪 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ai-image-enhancer.git
+cd ai-image-enhancer
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
